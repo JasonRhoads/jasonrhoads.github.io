@@ -493,17 +493,6 @@ col-two .col-content {
     width: auto;
   }
   
-  /* BLOG STYLES */
-  .post-aside {
-    display: none;
-  }
-  .blog-recent {
-    display: none;
-  }
-  .blog-previews {
-    padding: 0;
-  }
-  
   /* GALLERY STYLES*/
   .gallery {
     flex-direction: column;
@@ -528,4 +517,19 @@ col-two .col-content {
   .gallery .gallery-info {
     flex: 1;
   }
+  /* BLOG STYLES */
+  .blog-cols {
+    flex-direction: column;
+  }
+  .post-aside {
+    display: none;
+  }
+  .blog-recent {
+    flex: 1;
+    text-align: center;
+  }
+  .blog-previews {
+    padding: 0;
+  }
+  
 }
