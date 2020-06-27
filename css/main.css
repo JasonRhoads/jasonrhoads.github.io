@@ -599,11 +599,9 @@ col-two .col-content {
   .show-mobile-menu {
     display: block;
     float: right;
-    /*font-weight: bold;*/
     margin-top: 1.5vh;
     padding: 1.5em;
     position: relative;
-    /*text-transform: uppercase;*/
   }
   .header-nav {
     background-color: #444;
