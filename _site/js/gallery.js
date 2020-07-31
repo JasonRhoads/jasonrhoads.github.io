@@ -20,7 +20,6 @@ function activateGallery () {
       mainImage.setAttribute("src", newImageSrc);
       mainImage.setAttribute("alt", thumbnail.alt);
       
-      
       // Change which image is current
       let currentClass = "current";
       document.querySelector(".current").classList.remove(currentClass);
