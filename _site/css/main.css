@@ -730,5 +730,6 @@ col-two .col-content {
 }
 
 .current {
-  background: pink;
+  /*background-color: #7f30e6;*/
+  background-color: #00f;
 }
